@@ -1,0 +1,93 @@
+.cart_background{
+    width:100%;
+    background-color:#c2d3de;
+    padding:30px;
+}
+
+.cart-table{
+    width:100%;
+    max-width:700px;
+    background:white;
+    margin : auto;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+
+.cart-table th:nth-child(2) /*2번째 나오는 th*/{
+    width:400px;
+}
+
+.cart-table td, .cart-table th{
+    padding:15px;
+    border-bottom:1px solid #c2d3de;
+}
+
+/*.cell-long{
+    width:700px; /* 최대한 700px 을 차지할려고해보세요 
+    
+}*/
+
+.btn{
+    padding:15px;
+    font-size:20px;
+    border:none;
+    border-radius: 10px;
+    background-color: coral;
+    color:white;
+    cursor:pointer;
+}
+
+/*이런 순서로 넣어야 잘 작동함 */
+/*마우스 올려놓았을때*/
+.btn:hover{
+    background-color: chocolate;
+}
+
+/*클릭 중 스타일*/
+.btn:active{
+    background-color: brown;
+}
+
+
+/*커서 찍혀있을 때*/
+.btn:focus{
+    background-color:gray;
+    border:2px solid black;
+}
+
+.input_text{
+    font-size:20px;
+}
+
+.input_text:focus{
+    border: 2px solid rgb(255, 110, 243);
+}
+
+.link{
+    text-decoration: none;
+    
+}
+
+/*방문전*/
+.link:link{
+    color:skyblue;
+}
+/*방문후*/
+.link:visited{
+    color:blue;
+}
+
+
+:any-link /*방문 전, 방문 후 링크 한번에 선택할 때*/
+:playing /*동영상, 음성이 재생중일 때*/
+:paused /*동영상, 음성이 정지시*/
+:autofill /*input의 자동채우기 스타일*/
+:disabled /*disabled된 요소 스타일*/
+:checked /*체크박스나 라디오버튼 체크되었을 때*/
+:blank /*input이 비었을 때*/
+:valid /*이메일 input 등에 이메일 형식이 맞을 경우*/
+:invalid /*이메일 input 등에 이메일 형식이 맞지 않을 경우*/
+:required /*필수로 입력해야할 input의 스타일*/
+:nth-child(n) /*n번째 자식 선택*/
+:first-child /*첫째 자식 선택*/
+:last-child /*마지막 자식 선택*/

@@ -1,0 +1,13 @@
+td, th{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse; /* 테이블은 기본적으로 틈이 존재
+                                  없애려면 border-collapse : collapse */
+}
+
+/* vertical-align 의 용도
+    1. 글씨간의 세로정렬할 때 verticla-align을 쓴다
+       inline/inline-block 요소 간의 세로 정렬할때
+    2. table 안에서 세로정렬할때 

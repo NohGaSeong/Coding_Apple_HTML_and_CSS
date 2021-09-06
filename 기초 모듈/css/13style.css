@@ -1,0 +1,83 @@
+/* .wrapper{
+    border:1px solid #333;
+    display:block;
+    left:0;
+    right:0;
+    margin:auto;
+    width:500px;
+    height:400px;
+    padding:24px;
+}
+
+h2{
+    margin:0;
+    margin-bottom:20px;
+}
+
+p{
+    margin:0;
+    display:inline-block;
+}
+ */
+
+div,input,textarea{
+    box-sizing:border-box;
+}
+
+ .form-background{
+     background:black;
+     padding:30px;
+ }
+
+ .form-white{
+    background-color:white;
+     padding:30px;
+     width:80%;
+     max-width:600px;
+     margin:auto;
+ }
+
+ .form-input{
+     width:100%;
+     padding:10px;
+     font-size:20px;
+     border:1px solid black;
+     border-radius:5px;
+ }
+
+ .w-100{
+     padding:10px;
+ }
+ .w-50{
+     width: 50%;
+     float:left;
+     padding:10px;
+ }
+
+ .form-long{
+     height:200px;
+ }
+
+ .yello-button{
+    width:100px;
+    float:right;
+    padding:5px;
+    background:rgb(255, 165, 48);
+    color:white;
+    border:none;
+    border-radius: 5px;
+
+ }
+
+ .footer{
+     margin-top:10px;
+ }
+
+ /* 오늘 배운거
+ 1. 셀렉터에 콤마쓰면 여러개 동시 선택가능
+ 2. 재사용가능하게 class 만들기 (실력 향상에 굳)
+ 3. 인풋을 디자인할때 label 유용함
+ 4. 
+
+
+ */

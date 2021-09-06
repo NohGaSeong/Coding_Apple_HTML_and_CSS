@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href = "css/15style.css" rel ="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "cart_background">
+        <h3>Your shopping cart</h3>
+        <table class = "cart-table">
+            <thead>
+            <tr>
+                <th></th>
+                <th class = "cell-long">Item</th><!--< 애만 폭 조절해도-->
+                <th>Amount</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td><img src = "item1.png" width = "50px"></td>
+                <td>카메라</td> <!--< 애도 늘어남-->
+                <td>1</td>
+                <td>7000</td>
+                <td>7000</td>
+            </tr>
+            <tr>
+                <!--colspan = "5" == 5개의 td를 합쳐주세영 -->
+                <td colspan="5" style = "text-align:right">총가격 : 7000</td>
+                
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        </table>
+        <button class = "btn">구매하기</button>
+        <input class = "input_text">
+        <a href = "#" class = "link">링크</a>
+    </div>
+</body>
+</html>
