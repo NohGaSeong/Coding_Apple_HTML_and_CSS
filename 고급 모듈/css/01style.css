@@ -343,3 +343,13 @@ p,h4,h3,h2,h1,span{
      opacity: 1;
 
  }
+
+.input-file::file-selector-button{
+    background:skyblue;
+    border:none;
+    padding:20px;
+}
+
+.input-file::file-selector-button:hover{
+    background:blue;
+}

@@ -44,8 +44,54 @@
         libero ut distinctio tempora labore ipsum tempore quae atque consectetur<br>
     dolores, sapiente cumque animi provident</p>
     </div>
-    <input type = "file">
-    <input type = "file" class = "input-file">
+    <!-- <input type = "file" >
+    
+    <style>
+        input[type=file]::-webkit-file-upload-button{
+            background:skyblue;
+            border:none;
+        }
+    </style> -->
+
+    <!-- <input placeholder="안녕하세요">
+
+    <style>
+        input::-webkit-input-placeholder{
+            color:red;
+        }
+    </style> -->
+
+    <progress value="0.5"></progress>
+    <style>
+        progress{
+            -webkit-appearance:none;
+        }
+
+        ::-webkit-progress-bar{
+            background-color:gray;
+        }
+
+        ::-webkit-progress-value{
+            background-color:orange;
+        }
+    </style>
+    <input type = "range">
+
+    <style>
+        input[type=range]{
+            appearance:none;
+        }
+
+        input[type=range]::-webkit-slider-thumb{
+            background:red;
+            appearance: none;
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+
+
+
     <div class = "explain-container">
         <div>
             <i class = "fas fa-shopping-cart fa-3x"></i>
