@@ -1,0 +1,64 @@
+@charset "UTF-8";
+.main-bg h4 {
+  font-size: 16px;
+}
+
+.main-bg button {
+  color: red;
+}
+
+/*2개이상 중첩 비추*/
+.main-bg h4 {
+  font-size: 16px;
+}
+
+.main-bg button {
+  color: red;
+}
+
+/*%임시클래스 특 : 단독으로 컴파일 안됨*/
+.btn-green {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.btn-green {
+  color: green;
+}
+
+.btn-green {
+  color: red;
+}
+
+.btn-green {
+  color: blue;
+}
+
+.background {
+  background-color: #2a4cb2;
+  font-size: 14px;
+}
+
+.box {
+  color: #2a4cb2;
+  font-size: 18px;
+}
+
+@use 'reset';
+h2 {
+  font-size: 45px;
+  letter-spacing: -1px;
+  color: #2a4cb2;
+}
+
+h3 {
+  font-size: 39px;
+  1px: -1px;
+}
+
+h4 {
+  font-size: 24px;
+  -2px: -1px;
+}
+/*# sourceMappingURL=04style.css.map */

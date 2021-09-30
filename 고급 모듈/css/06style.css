@@ -1,0 +1,32 @@
+.blue, .red, .green {
+  padding: 20px;
+  width: 300px;
+  height: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.well p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blue {
+  background-color: #bfd0ff;
+  color: rgba(75, 102, 255, 0.933);
+}
+
+.red {
+  background-color: #ffb5b5;
+  color: rgba(190, 106, 106, 0.933);
+}
+
+.green {
+  background-color: #b0fdb0;
+  color: rgba(19, 150, 2, 0.933);
+}
+/*# sourceMappingURL=06style.css.map */
